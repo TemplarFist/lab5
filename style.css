@@ -1,0 +1,36 @@
+/* стили для ПК */
+
+#menu  {
+    display: table;
+    list-style: none;
+    margin:  auto;
+}
+
+#menu li {
+        display:block;
+        float: left;
+}
+
+#menu li a {
+        display:table;
+        padding: 0 20px;
+        height: 50px;
+        font:600 13px/50px arial;
+        color: #fff;
+        text-decoration: none;
+}
+#menu li:hover a {
+    background: #666;
+}
+body {
+     background: linear-gradient(to right, #F6CD9C, #FFFFFF);
+}
+
+.up{
+   position: static;
+   float: right;
+}
+
+.content {
+    text-align: center;
+    
